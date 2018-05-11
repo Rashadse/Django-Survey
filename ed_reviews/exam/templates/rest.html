@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+    <div id="intro">
+        <h1>Welcome the REST API control panel</h1>
+
+    <div>
+
+        <p>REST API commands</p>
+
+        <p>You have to be an admin to order the list below </p>
+
+    </div>
+
+    <div>
+        <a href="/api/v1/questions/">Create a question</a> <br />
+        <a href="/api/v1/questions/1">Edit a question</a> <br />
+        <a href="/api/v1/responses/">Create a response</a> <br />
+        <a href="/api/v1/responses/1">Edit a response</a> <br />
+    </div>
+    </div>
+
+{% endblock %}
